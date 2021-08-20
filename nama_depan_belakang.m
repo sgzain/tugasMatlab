@@ -13,9 +13,6 @@ str2 = sscanf(data1(n+2:end), '%s',1 );
 s = randi([35 38]);s =char(s);
 s1 = randi([48 57]);s1=char(s1);
 s3 = randi([65 90]);s3=char(s3);
-s4 = randi([97 122],1,5);s4=char(s4);
-d = strcat(s,s1,s3,s4);
-display(s1)
 ffd1 = [txt3(k) {d} {str} {str2} txt2(k)];
 sd = strcat('A',num2str(k+1));
 xlswrite('KECERDASAN BUATAN.csv', ffd1,'Sheet1',sd);
