@@ -5,6 +5,7 @@ nn = length(txt);
 ffd = [];
 for k = 1 : nn;
 data=txt(k);
+data;
 data1 = cell2mat(data);
 str = sscanf(data1, '%s',1 );
 n = length(str);
